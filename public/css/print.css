@@ -1,0 +1,76 @@
+.hide-to-print
+{
+	display: none;
+}
+body
+{
+	background: #fff;
+	font-size: 8pt;
+}
+.page-content-wrapper, .page-content
+{
+	width: auto;
+	margin: 0;	
+	padding: 0;
+	border: 0; 
+	float: none !important; 
+	color: black; 
+	background: transparent; 
+}
+div.page-content 
+{ 
+	margin-left: 10%;
+	padding-top: 1em; 
+	border-top: 1px solid #930;
+	margin-bottom: -8px;
+}
+div.page-content img 
+{ 
+	vertical-align: bottom;
+	height: 55px !important;
+}
+#header_left p
+{
+	font-size: 8px;
+}
+#header_left h3
+{
+	font-size: 14px;
+}
+#date_tab
+{
+	font-size: 10px;
+}
+.headings
+{
+	font-size: 12px;
+}
+.txt
+{
+	font-size: 9px;
+}
+.panel
+{
+	margin-bottom: 2px !important;
+}
+#problems, #problems .row, #problems td
+{
+	padding-bottom: 1px !important;
+}
+td
+{
+	height: 5px;
+}
+/*
+a:link, a:visited 
+{ 
+	color: #520; 
+	background: transparent; 
+	font-weight: bold; 
+	text-decoration: underline; 
+}
+.page-content a:link:after, .page-content a:visited:after 
+{ 
+	content: " (" attr(href) ") "; 
+	font-size: 90%; 
+}/**/
